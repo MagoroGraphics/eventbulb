@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+  {% block content %}
+
+  <main class="wrap-content">
+    <div class="card-background ">
+      <section class="wrap-content">
+        <div class="card">
+          <h2 class="">Django Meetup</h2>
+          <h3></h3>
+        </div>
+      </section>
+      <section class="card">
+        <img class="placeholder-image" src="{% static 'images/image_placeholder.jpg' %}" alt="Placeholder">
+      </section>
+      <section class="card">
+        <p class="">Price: £0.00</p>
+        <p>A meetup for Django developers and people who are interested in Django development. People of all experience levels are welcome, from beginners to pros!</p>
+      </section>
+      </div>
+    </div>
+  </main>
+
+{% endblock content %}
